@@ -1,10 +1,10 @@
 [package]
 name = "榆念远程"
-version = "1.0.0"
-authors = ["榆念远程 <info@wildfun.com>"]
-edition = "2024"
+version = "1.3.1"
+authors = ["rustdesk <info@rustdesk.com>"]
+edition = "2021"
 build= "build.rs"
-description = "榆念远程 Remote Desktop"
+description = "RustDesk Remote Desktop"
 default-run = "rustdesk"
 rust-version = "1.75"
 
@@ -191,7 +191,7 @@ hound = "3.5"
 
 [package.metadata.bundle]
 name = "榆念远程"
-identifier = "com.carriez.wildfun"
+identifier = "com.carriez.rustdesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
