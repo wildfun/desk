@@ -50,7 +50,7 @@ fn main() {
         -k, --key=[KEY] ''
        -s, --server=[] 'Start server'",
     );
-    let matches = App::new("rustdesk")
+    let matches = App::new("榆念远程")
         .version(crate::VERSION)
         .author("Purslane Ltd<info@rustdesk.com>")
         .about("RustDesk command line tool")
